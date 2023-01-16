@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 x
-openai.api_key='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'
+openai.api_key='Your key'
 def chatbot(text):
     return openai.Completion.create(
         engine="text-davinci-003",
